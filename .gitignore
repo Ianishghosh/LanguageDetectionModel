@@ -1,0 +1,97 @@
+# Python bytecode and packaging
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb  # optionally ignore notebooks; remove if you want to track notebooks
+
+# Editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Logs
+*.log
+logs/
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+~$*
+
+# OneDrive / Sync artifacts
+~$*
+*.lnk
+OneDriveTemp/
+*.odt~
+
+# Data and dataset archives (replace with your preferred policy)
+# - Keep raw/large datasets out of git. Use Git LFS or external hosting.
+datasetss/
+datasetss.zip
+mini_dataset.zip
+mini_dataset/
+processed_data/
+data_mini/
+
+# Audio files and media (large)
+*.mp3
+*.wav
+*.flac
+*.m4a
+
+# Model artifacts (use Git LFS for these instead of regular git)
+*.safetensors
+pytorch_model.bin
+model.safetensors
+*.ckpt
+*.pt
+*.tar.gz
+trained_model/
+essential_model/
+language_detection_model/
+language_detection_model.zip
+
+# Hugging Face / Transformers caches
+.huggingface/
+transformers_cache/
+torch_cache/
+cache/
+*.cache
+
+# Python packaging, env files, secrets
+.env
+*.env
+
+# Tests / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Misc
+*.bak
+*.old
